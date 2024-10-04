@@ -1,4 +1,4 @@
-// Name: Darren Lagbao 
+// Name: Darren Lagbao, Conner Havlicek
 // Date: 10/2/2024
 // Class: CS 145, Computer Science 2, Darrell Criss
 // Lab: 2, Card Shuffling and Dealing Program
