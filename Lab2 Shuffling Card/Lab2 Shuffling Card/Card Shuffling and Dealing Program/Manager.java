@@ -43,6 +43,36 @@ public static void Play(String[] args) {
     System.out.println("Would you like to play?");
 }
 
+    //- Card Methods -//
+
+    public static  void StartingHand(DeckOfCards myDeckOfCards){
+
+        
+        for(int i = 1; i <= 2; i++){
+            // deal and display a card
+
+            if(i % 4 == 0){ // output a new line after every fourth card
+                System.out.println();
+            } // end of if
+        } // end of for loop
+
+
+        System.out.println("Dealer has his starting hand.");
+
+        Divider(null);
+
+        System.out.println("Player has his starting hand.");
+
+        for(int i = 1; i <= 2; i++){
+            // deal and display a card
+            System.out.printf("%-19s", myDeckOfCards.dealCard());
+
+            if(i % 4 == 0){ // output a new line after every fourth card
+                System.out.println();
+            } // end of if
+        } // end of for loop
+
+    }
 
 
 

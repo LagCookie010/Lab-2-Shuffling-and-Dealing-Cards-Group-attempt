@@ -162,7 +162,7 @@ public class BlackJack {
             System.out.println("The Dealer value is " + DealerValue);
 
         }
-        if (handValue > DealerValue && handValue > 21) {
+        if (handValue < DealerValue && handValue < 21) {
             System.out.println("You lost to the Dealer Hands!");
             System.out.println("The Dealer value is " + DealerValue);
 
@@ -209,6 +209,8 @@ public class BlackJack {
             for(int i = 0; i < DealerDraw; i++)
         {
             myHand[i] = myDeckOfCards.dealCard();
+            System.out.println(myHand[i]);
+
             String face = "";
             for(int y = 0; y <= 2; y++){
                 face += myHand[i].toString().charAt(y);

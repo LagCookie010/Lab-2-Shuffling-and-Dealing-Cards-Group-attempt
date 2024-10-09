@@ -11,15 +11,11 @@
 
 public class Test {
     public static void main(String[] args) {
-<<<<<<< Updated upstream
 
-        BlackJack.BlackJackGame(args);
-=======
         Manager.Introduction(args);
 
 
-        BlackJack.main(args);
->>>>>>> Stashed changes
+        BlackJack.BlackJackGame(args);
     }
 
 }// end of Test class
