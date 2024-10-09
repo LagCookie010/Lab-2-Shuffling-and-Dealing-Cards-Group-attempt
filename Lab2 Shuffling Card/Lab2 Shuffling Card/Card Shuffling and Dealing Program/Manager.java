@@ -9,15 +9,20 @@
 // and Test classes.
 // Notes:
 
+import java.util.Scanner; 
 
 public class Manager {
 
 
     //-Introduction + Instructions-//
     public static void Introduction(String[] args) {
+
+        Divider(args);
         System.out.println("We'll be playing a game of Blackjack. The descendent of the Twenty-One game.");
-        System.out.println("The Dealer hands two random cards to the players.The dealer will also get 2 cards.");
+        System.out.println("The Dealer hands two random cards to the players. The dealer will also get 2 cards.");
         System.out.println("Your goal is to get to as close to 21 on your cards' faces. ");
+        Divider(args);
+    
     }
 
 
@@ -25,15 +30,18 @@ public class Manager {
 
     //- Misc. Methodss -//
     public static void Divider(String[] args) {
+        System.out.println("");
         System.out.println("+--==--+--==--+--==--+--==--+--==--+--==--+--==--+--==--+");
-
+        System.out.println("");
     }
 
 
 
 
 
-
+public static void Play(String[] args) {
+    System.out.println("Would you like to play?");
+}
 
 
 
