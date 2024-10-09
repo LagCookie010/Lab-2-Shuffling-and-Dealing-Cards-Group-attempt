@@ -9,6 +9,8 @@ public class DeckOfCards {
     private Card[] deck = new Card[NUMBER_OF_CARDS];
     private int currentCard = 0;
 
+
+
     public DeckOfCards() {
         String[] faces = {"Ace", "Deuce", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Jack", "Queen", "King"};
         String[] suits = {"Hearts", "Diamonds", "Clubs", "Spades"};
@@ -45,7 +47,12 @@ public class DeckOfCards {
             return null; // return null to indicate that all cards were dealt
         } // end if/else
     } // end of dealCard method
-}
+
+
+
+
+
+}// DeckOfCards Ends
 
 
 

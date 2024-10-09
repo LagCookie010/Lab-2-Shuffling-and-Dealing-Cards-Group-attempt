@@ -11,7 +11,8 @@
 
 public class Test {
     public static void main(String[] args) {
-        Manager.Introduction(args);
+
+        BlackJack.BlackJackGame(args);
     }
 
 }// end of Test class
