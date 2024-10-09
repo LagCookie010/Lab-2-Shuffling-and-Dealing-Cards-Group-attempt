@@ -17,6 +17,7 @@ public class BlackJack {
         Scanner console = new Scanner(System.in);
         boolean isDrawing = true;
         Card[] myHand = new Card[2];
+        Card[] DealerHands = new Card[2];
         int handValue = 0;
         int DealerValue = 0;
         boolean DrawACard = false;
@@ -181,6 +182,13 @@ public class BlackJack {
 
         //System.out.println(card01 + " and " + card02);
         
+        for (int i = 0; i < DealerHands.length; i++){
+            
+
+
+        }
+
+
 
         /* 
         while(isPlaying)
